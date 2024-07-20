@@ -1,0 +1,37 @@
+.loginpopup {
+  width: 50%;
+  height: 47%;
+  background-color: rgb(251, 229, 229);
+  padding: 30px 30px;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 25%;
+  border-radius: 10px;
+}
+.new {
+  width: 50%;
+  height: 57%;
+  background-color: rgb(251, 229, 229);
+  padding: 30px 30px;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 25%;
+  border-radius: 10px;
+}
+.cross {
+  position: absolute;
+  left: 90%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+.end span {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

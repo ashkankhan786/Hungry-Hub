@@ -1,0 +1,9 @@
+.fooditemsdisplay {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  animation: FadeIn 1s ease;
+}

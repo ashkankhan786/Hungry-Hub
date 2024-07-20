@@ -1,0 +1,18 @@
+.exploremenu h1 {
+  color: black;
+}
+.exploremenu {
+  margin: auto 120px;
+}
+.exploremenu-list {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+.exploremenu-list p {
+  text-align: center;
+  font-weight: 600;
+}
+.active {
+  opacity: 0.5;
+}

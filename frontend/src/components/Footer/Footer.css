@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+  padding: 50px 100px 100px;
+  color: white;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.center ul {
+  list-style: none;
+}
+.center li {
+  text-align: left;
+}
+.center h3 {
+  margin-left: 25px;
+}
+.lastp {
+  margin-top: 40px;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+}
+.logos img {
+  width: 40px;
+}

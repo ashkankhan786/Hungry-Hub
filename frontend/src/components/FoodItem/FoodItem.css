@@ -1,0 +1,13 @@
+.addicon {
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+}

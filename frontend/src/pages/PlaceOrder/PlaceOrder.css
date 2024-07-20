@@ -1,0 +1,46 @@
+.place-order {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cart-subtotal,
+.del-fee,
+.cart-complete-total {
+  display: flex;
+  justify-content: space-between;
+  height: 10px;
+}
+.cart-total-area {
+  margin-top: 40px;
+}
+.cart-total-area button {
+  margin-top: 20px;
+  background-color: rgb(226 75 75);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px 4px 10p;
+}
+h2 {
+  margin-top: 40px;
+}
+.customer-form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+}
+.customer-form input {
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid gray;
+}
+.multi-fields {
+  display: flex;
+  gap: 10px;
+}
+.single-field input {
+  width: 80%;
+}

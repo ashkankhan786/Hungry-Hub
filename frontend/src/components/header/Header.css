@@ -1,0 +1,33 @@
+.header {
+  padding: 30px;
+  height: 553px;
+  width: max(900px, 85vw);
+  margin: 40px auto;
+  background: url("/header_img.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 40px;
+}
+
+.header p {
+  color: white;
+  animation: FadeIn 1s ease-in;
+  font-weight: 400;
+}
+.header h1 {
+  color: white;
+  animation: FadeIn 1s ease-in;
+  font-weight: 700;
+}
+.header button {
+  width: min(100px, 10vw);
+  border-radius: 30px;
+  border: 10px white;
+  box-shadow: 20px;
+}
+.header button:hover {
+  border-color: gray;
+  background-color: rgb(209, 209, 209);
+}
