@@ -1,7 +1,9 @@
+/* Base styles */
 .place-order {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .cart-subtotal,
 .del-fee,
 .cart-complete-total {
@@ -9,20 +11,24 @@
   justify-content: space-between;
   height: 10px;
 }
+
 .cart-total-area {
   margin-top: 40px;
 }
+
 .cart-total-area button {
   margin-top: 20px;
-  background-color: rgb(226 75 75);
+  background-color: rgb(226, 75, 75);
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 4px 10px 4px 10p;
+  padding: 4px 10px;
 }
+
 h2 {
   margin-top: 40px;
 }
+
 .customer-form {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -31,16 +37,93 @@ h2 {
   gap: 15px;
   padding-left: 10px;
 }
+
 .customer-form input {
   height: 35px;
   border-radius: 5px;
   box-shadow: none;
   border: 1px solid gray;
 }
+
 .multi-fields {
   display: flex;
   gap: 10px;
 }
+
 .single-field input {
   width: 80%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .place-order {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .cart-subtotal,
+  .del-fee,
+  .cart-complete-total {
+    height: auto;
+    font-size: 14px;
+  }
+
+  .cart-total-area button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .customer-form {
+    padding-left: 0;
+  }
+
+  .customer-form input {
+    width: 100%;
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .multi-fields {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .single-field input {
+    width: 100%; /* Make input fields full width */
+  }
+}
+
+@media (max-width: 480px) {
+  .place-order {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-subtotal,
+  .del-fee,
+  .cart-complete-total {
+    font-size: 12px;
+  }
+
+  .cart-total-area button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .customer-form {
+    gap: 10px;
+  }
+
+  .customer-form input {
+    height: 30px;
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .multi-fields {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .single-field input {
+    width: 100%; /* Make input fields full width */
+  }
 }

@@ -19,7 +19,7 @@ function NavbarComp({ setShowLogin }) {
       <Navbar expand="lg" className="bg-body-tertiary mainnav">
         <Container fluid>
           <Link to="/">
-            <img src={assets.logo} />
+            <img src={assets.logo} width={250} height={80} />
           </Link>
           <Nav
             className="me-auto my-2 my-lg-0"

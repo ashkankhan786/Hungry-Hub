@@ -31,3 +31,51 @@
   border-color: gray;
   background-color: rgb(209, 209, 209);
 }
+@media (max-width: 900px) {
+  .header {
+    padding: 20px;
+    height: auto;
+    width: 90vw;
+    gap: 30px;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .header h1 {
+    font-size: 1.5em;
+  }
+
+  .header p {
+    font-size: 1em;
+  }
+
+  .header button {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 15px;
+    height: auto;
+    width: 95vw;
+    gap: 20px;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .header h1 {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+
+  .header p {
+    font-size: 0.9em;
+    padding: 5px;
+    font-weight: bolder;
+  }
+
+  .header button {
+    width: 20vw;
+  }
+}

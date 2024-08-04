@@ -34,7 +34,9 @@ function Footer() {
           <p>ak78@gmail.com</p>
         </div>
       </div>
-      <p className="lastp">Copyright 2024 @ Tomato.com - All Right Reserved.</p>
+      <p className="lastp">
+        Copyright 2024 @ HungryHub.com - All Right Reserved.
+      </p>
     </div>
   );
 }
